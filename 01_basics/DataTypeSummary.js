@@ -34,4 +34,26 @@ console.log(heros);
  };
  myfunc();
  //typeof is used to define the data type
+
+ /************************************Stack and Heap Memory ************************/
+ //stack(Primitve type)   or    Heap(Non Primitive)
+ //copy pass hoti hai          reference pass hota h (atual value me changes hota hai)
+
+/* stack example */
+ let myYoutubename = "meghanamdeo.com"
+ let anothername =  myYoutubename
+ anothername ="meghanamdeo"
+ console.log(myYoutubename);
+ console.log(anothername);
+
+ /* Heap Example */
+ let userOne = {
+    email:"user1@gmail.com",
+    upi:"123@Paytm" ,
+ }
+ 
+ let usertwo =userOne 
+ usertwo.email = "abc@gmail.com"
+ console.log(userOne.email);
+ console.log(usertwo.email);
  
