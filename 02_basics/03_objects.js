@@ -9,10 +9,9 @@
 const mySym = Symbol("key1")
 const JsUser={ 
     name :"Megha",
-    [mySym]:"mykey1"
-    "full name" : " Megha Namdeo",// ager humne fullname string ki tarah access kr diya to hum . ke throug access ni kr sakte 
+    [mySym]:"mykey1",
+    "full name" : "Megha Namdeo", 
     age : 18,
-    
     location : " Jabalpur",
     email : "megha@gmail.com",
     islogin : false,
@@ -23,4 +22,22 @@ console.log(JsUser.email);
 
 console.log(JsUser["email"]);
 console.log(JsUser["full name"]);
-log(JsUser.mySym)
+console.log(JsUser.mySym)
+
+JsUser.email="meghanamdeo@123"
+Object.freeze(JsUser)//change ni hoga object
+JsUser.email="meghanamdeo@123"
+console.log(JsUser);
+JsUser.greeting=function()
+{
+    console.log("Hello Js User");
+}
+
+JsUser.greetingTwo=function()
+{
+    console.log(`Hello Js User,${this.name}`);
+}
+
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
+conole.log(JsUser);
