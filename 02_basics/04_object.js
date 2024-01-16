@@ -46,3 +46,34 @@ const obj3 = {...obj1,...obj2,...obj4}
     console.log(Object.values(tinderUser));//values print krta hai 
     console.log(Object.entries(tinderUser));//entries print krta hai
     console.log(tinderUser.hasOwnProperty('isLogged'));//ye batata h ye property hai ki ni true false me ans deta hai
+
+    //Destructing : object Destructing and Array Destructing
+    //object Destructing
+    const course ={
+        coureseName : "Js learning ",
+        price : " 999",
+        courseIntructor : "hitesh sir"
+    }
+    course.courseIntructor;// ye ek tarika but humko baar baar . lgakr krna pareda 
+    const{courseIntructor:instructor}=course// isme hum direct access krsakte hai sirf name likhkr 
+   // console.log(courseIntructor);
+//ya
+console.log(instructor);
+
+   /* const navbar=({company})=>{//react ka syntax hai destructing hori h
+
+    }
+    navbar(company="megha")*/
+/* Json  ka syntax 
+   {
+        "name" : "Megha Namdeo",
+        "coursename" : "js",
+        "price" : " free"
+    }
+*/
+//Array Json
+[
+    {},
+    {},
+    {}
+]
