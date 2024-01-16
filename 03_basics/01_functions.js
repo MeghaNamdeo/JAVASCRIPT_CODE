@@ -61,4 +61,4 @@ function loginUserMessage(username="sam")
 }
 console.log(loginUserMessage("Megha "))//output : Megha just logged in 
 console.log(loginUserMessage(""))//output : just logged in 
-console.log(loginUserMessage())//output : undefinedjust logged in 
+console.log(loginUserMessage())//output :sam just logged in 
