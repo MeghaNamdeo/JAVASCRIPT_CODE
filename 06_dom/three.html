@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Learning</title>
+
+</head>
+<body style="background-color: #212121 ;color:#fff;">
+    
+</body>
+<script>
+   const div =  document.createElement('div')
+   console.log(div);
+   div.className="main"
+  // div.id="myId"
+  div.id=(Math.random()*10+1)
+  div.setAttribute("title","generated title")//direct lekr aata hai value ko
+  div.style.padding="12px"
+  //or 
+  //div.innerHTML="Megha Namdeo"// pehle value ka reference lekr aayga phir override karega 
+  const addtext=document.createTextNode("Megha Namdeo")
+  div.appendChild(addtext)
+  document.body.appendChild(div)
+   </script>
+</html>
