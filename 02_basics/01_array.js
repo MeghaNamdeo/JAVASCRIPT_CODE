@@ -30,7 +30,9 @@ const nayaArr= myArr.join();//data type of array change into string
 console.log(nayaArr);
 console.log(typeof(nayaArr));
 
-//slice and splice 
+/* slice and splice  : slice returns a piece of the array but 
+   it doesn’t affect the original array. splice changes the original 
+   array by removing, replacing, or adding values and returns the affected values.*/
 
 console.log("A ",myArr);
 
