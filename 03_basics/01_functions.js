@@ -34,7 +34,9 @@ addTwoNumber(2,null) //output : 2
 const result = addTwoNumber(2,3) //output : 5 
 console.log("Results : ",result);//output : undefined  because  
 
-//In JavaScript, every function, when executed, produces a result. If a function does not have an explicit return statement, or if the return statement does not provide a value, the function implicitly returns undefined.
+/* In JavaScript, every function, when executed, produces a result. 
+If a function does not have an explicit return statement, or
+if the return statement does not provide a value, the function implicitly returns undefined.*/
 function loginUserMessage(username)
 {
     /*if(username === undefined)or */
