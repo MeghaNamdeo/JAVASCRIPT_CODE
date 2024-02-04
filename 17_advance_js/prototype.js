@@ -1,0 +1,3 @@
+/*
+All JavaScript objects inherit properties and methods from a prototype.
+*/
