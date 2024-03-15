@@ -2,7 +2,7 @@
 // console.log("2<1 = ",2<1);
 // console.log("2==1 = ",2==1);
 // console.log("2>=1 = ",2>=1);
-// console.log("2=>1 = ",2>=1);
+// console.log("2>=1 = ",2>=1);
 
 /*Comparison ke liy dono data type same hone chahiy */
 // console.log('"2">1 : ',"2">1);
